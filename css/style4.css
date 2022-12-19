@@ -1,0 +1,87 @@
+body {
+  background-color: white;
+}
+.jumbotrondua h1 {
+  margin-top: 300px;
+}
+.artikel a {
+  color: black;
+}
+.artikel h2 {
+  font-weight: 500;
+  font-size: 40px;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+}
+.artikel p {
+  font-weight: 700;
+}
+.artikel h6 {
+  font-size: 15px;
+  font-family: "Jost", sans-serif;
+}
+.artikel span {
+  color: rgb(167, 96, 29);
+}
+.artikel img {
+  width: 80%;
+  height: 300px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.artikel .row {
+  padding-left: 70px;
+  margin-top: 50px;
+}
+.artikel .row:hover {
+  background-color: rgb(241, 206, 159);
+}
+
+/* Media */
+/* 1024 */
+@media (max-width: 1024px) {
+  .artikel .container {
+    width: 90%;
+  }
+  .artikel h2 {
+    font-size: 30px;
+  }
+  .artikel h6 {
+    font-size: 14px;
+  }
+  .artikel img {
+    height: 250px;
+    width: 100%;
+  }
+}
+
+/* 600 */
+@media (max-width: 600px) {
+  .artikel .row {
+    padding-left: 0px;
+    padding: 10px;
+    border: 2px solid rgb(167, 96, 29);
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .artikel .row:hover {
+    background-color: white;
+  }
+  .artikel h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+  }
+  .artikel h6 {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 540px) {
+  .jumbotrondua .parallax-container {
+    height: 350px;
+  }
+  .jumbotrondua h1 {
+    margin-top: 260px;
+  }
+}

@@ -1,0 +1,192 @@
+.judul .text,
+.judul .pict {
+  height: 800px;
+}
+.judul .text {
+  background-color: rgb(230, 220, 202);
+  color: black;
+}
+.text a {
+  position: relative;
+  top: 70px;
+  color: black;
+  font-size: 13px;
+}
+.text a.active {
+  font-weight: bold;
+  color: rgb(214, 129, 31);
+}
+.text h1 {
+  margin-top: 80px;
+  font-weight: 600;
+  font-family: "Jost", sans-serif;
+}
+.text h6 {
+  background-color: rgb(176, 130, 77);
+  color: white;
+  height: 45px;
+  padding-top: 7px;
+  padding-left: 7px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.judul .pict {
+  background-color: rgb(176, 130, 77);
+}
+.pict img {
+  width: 100%;
+  margin-top: 0px;
+}
+
+/* Topic */
+.topic .container {
+  background-color: white;
+  position: relative;
+  margin-top: -100px;
+  padding: 100px;
+  padding-bottom: 30px;
+  font-family: "Jost", sans-serif;
+}
+.topic h3 {
+  font-size: 17px;
+  font-weight: bold;
+}
+.topic h6 {
+  font-size: 16px;
+}
+.topic h2 {
+  margin-bottom: 20px;
+}
+.sharethis-inline-share-buttons {
+  margin-top: 50px;
+}
+.sharethis-inline-share-buttons img {
+  margin-top: 0px;
+}
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: -50px;
+}
+.card-content {
+  height: 110px;
+}
+a .card {
+  color: black;
+}
+a .card:hover {
+  color: rgb(214, 129, 31);
+}
+.card h6 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.wavetiga {
+  position: relative;
+}
+
+/* Media */
+/* 1280 */
+@media (max-width: 1280px) {
+  .judul h1 {
+    font-size: 40px;
+  }
+  .judul .text,
+  .judul .pict {
+    height: 500px;
+  }
+  .card-content h6 {
+    font-size: 15px;
+  }
+}
+/* 1024 */
+@media (max-width: 1280px) {
+  .text a {
+    top: 30px;
+  }
+  .text h1 {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .judul .text,
+  .judul .pict {
+    height: 400px;
+  }
+  .topic .container {
+    padding-top: 70px;
+    margin-top: -70px;
+    width: 90%;
+  }
+  .topic h2 {
+    font-size: 30px;
+  }
+}
+/* 768 */
+@media (max-width: 768px) {
+  .text a {
+    font-size: 12px;
+  }
+}
+/* 540 */
+@media (max-width: 540px) {
+  .judul .text {
+    height: 320px;
+  }
+  .topic .container {
+    padding: 50px;
+    margin-top: -50px;
+  }
+  .topic h6 {
+    font-size: 13px;
+  }
+}
+/* 414 */
+@media (max-width: 414px) {
+  .judul .text {
+    height: 350px;
+  }
+  .judul .pict {
+    height: 320px;
+  }
+  .topic .container {
+    padding: 20px;
+  }
+}
+/* 280 */
+@media (max-width: 280px) {
+  .text a {
+    font-size: 8px;
+  }
+  .text h1 {
+    font-size: 25px;
+  }
+  .text h6 {
+    font-size: 13px;
+    height: 30px;
+  }
+  .judul .text {
+    height: 300px;
+  }
+  .judul .pict {
+    height: 230px;
+  }
+  .topic .container {
+    width: 100%;
+  }
+  .topic h6 {
+    font-size: 11px;
+  }
+  .topic h3 {
+    font-size: 14px;
+  }
+  .topic h2 {
+    font-size: 20px;
+  }
+  .card-content {
+    height: 150px;
+  }
+  .card-content h6 {
+    font-size: 12px;
+    margin-top: 0px;
+  }
+}

@@ -1,0 +1,236 @@
+.jumbotron .container.dua {
+  width: 230px;
+}
+
+.products {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  margin-top: -20px;
+}
+.collapsible {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  border: 0px solid rgba(0, 0, 0, 0);
+}
+.collapsible-header {
+  background-color: rgb(59, 165, 253);
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0px 2px 6px black;
+  margin-top: 10px;
+}
+.collapsible-header span {
+  font-size: 26px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.collapsible-body {
+  background-color: rgba(151, 151, 151, 0.767);
+  border-radius: 10px;
+}
+.collapsible-body h4 {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.collapsible-body img {
+  width: 350px;
+  height: 230px;
+}
+.collapsible-body a.btn {
+  background-color: rgb(73, 91, 255);
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+.collapsible-body a.btn:hover {
+  background-color: white;
+  color: rgb(73, 91, 255);
+}
+
+/* Footer */
+.filterdua {
+  width: 100%;
+  height: 450px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  margin-top: -50px;
+}
+.wavesembilan {
+  position: relative;
+  margin-top: -370px;
+  filter: drop-shadow(2px 2px 6px black);
+}
+.page-footer.tiga {
+  margin-top: -60px;
+}
+
+/* Overlay */
+.overlay {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 9999;
+  transition: 0.7s;
+  text-align: center;
+  padding: 100px 0;
+}
+.overlay:target {
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.842);
+}
+.overlay img {
+  margin-top: 150px;
+  max-height: 100%;
+  filter: drop-shadow(2px 2px 10px black);
+}
+.overlay:target img {
+  animation: fade 1s;
+}
+.overlay .close {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  margin-left: -60px;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  border: 1px solid white;
+  line-height: 15px;
+  padding: 10px;
+  font-weight: 500;
+  opacity: 0;
+  border-radius: 20px;
+  font-size: 22px;
+}
+.overlay:target .close {
+  animation: slidedownfade 0.5s 0.5s forwards;
+}
+.overlay:target .next,
+.overlay:target .prev {
+  animation: fade 0.5s 0.5s forwards;
+}
+/* Navigasi */
+.next,
+.prev {
+  width: 80px;
+  height: 80px;
+  background-image: url(../img/next.png);
+  position: absolute;
+  text-indent: -9999px;
+  top: 45%;
+  margin-left: 50px;
+  opacity: 0;
+}
+.prev {
+  background-image: url(../img/back.png);
+  margin-left: -130px;
+}
+/* Animasi */
+@keyframes zoomfade {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes slidedownfade {
+  0% {
+    opacity: 0;
+    margin-top: 30px;
+  }
+
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1366px) {
+  .page-footer.tiga {
+    margin-top: -50px;
+  }
+}
+@media (max-width: 1280px) {
+  .page-footer.tiga {
+    margin-top: -40px;
+  }
+}
+@media (max-width: 1024px) {
+  .collapsible-body img {
+    width: 230px;
+    height: 200px;
+  }
+  .collapsible-body h4 {
+    font-size: 17px;
+  }
+  .page-footer.tiga {
+    margin-top: -40px;
+  }
+}
+@media (max-width: 991px) {
+  .collapsible-body img {
+    width: 400px;
+    height: 310px;
+    margin-top: 30px;
+  }
+  .page-footer.tiga {
+    top: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .collapsible-body h4 {
+    font-size: 16px;
+  }
+  .collapsible-body img {
+    width: 300px;
+    height: 220px;
+    margin-top: 30px;
+  }
+  .page-footer.tiga {
+    margin-top: -40px;
+  }
+  .overlay img {
+    width: 60%;
+    margin-top: 240px;
+  }
+  .next,
+  .prev {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .prev {
+    margin-left: -100px;
+  }
+  .next {
+    margin-left: 60px;
+  }
+  .overlay .close {
+    font-size: 15px;
+    margin-left: -40px;
+  }
+}

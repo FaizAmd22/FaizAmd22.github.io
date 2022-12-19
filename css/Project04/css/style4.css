@@ -1,0 +1,215 @@
+body {
+  height: 2500px;
+}
+
+.jumbotron .container.tiga {
+  width: 220px;
+}
+
+/* Detail */
+.waveempat.dua {
+  z-index: 1;
+}
+.detail {
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  margin-top: -50px;
+}
+.detail h1 {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 6px rgba(155, 155, 155, 0.76);
+}
+.video-container {
+  margin-top: 20px;
+}
+
+/* Background */
+.wavesembilan {
+  position: relative;
+  z-index: 1;
+  top: -50px;
+  filter: drop-shadow(2px 2px 5px black);
+}
+.filter.dua {
+  z-index: 0;
+  top: -700px;
+  height: 2000px;
+  background-color: rgba(0, 0, 0, 0.466);
+}
+.bgenam {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+}
+.bgenam img {
+  height: 900px;
+  width: 100%;
+}
+.tambahan img {
+  position: relative;
+  width: 100%;
+  height: 99.9%;
+  top: -900px;
+}
+
+/* Process */
+.process {
+  margin-top: -2200px;
+  color: white;
+  position: relative;
+}
+.process h1 {
+  font-size: 34px;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px black;
+}
+.process h4 {
+  font-size: 20px;
+}
+.process img {
+  margin-top: 20px;
+  width: 450px;
+}
+.process img.fib {
+  width: 300px;
+  margin-top: 50px;
+}
+.process img.pet {
+  width: 500px;
+  margin-top: 40px;
+}
+.process img.brik {
+  margin-top: 60px;
+}
+.process .row.fiber {
+  margin-bottom: 50px;
+}
+.process .row.peat {
+  margin-bottom: 80px;
+}
+/* Filter */
+.filtertiga {
+  background-color: rgb(15, 15, 12);
+  height: 1900px;
+  margin-top: -1400px;
+  position: relative;
+  z-index: -1;
+}
+
+/* Footer */
+.wavetiga.dua {
+  margin-top: -500px;
+}
+.page-footer.tiga {
+  margin-top: -150px;
+}
+
+@media (max-width: 1366px) {
+  .tambahan img {
+    top: -710px;
+    height: 950px;
+  }
+  .process {
+    margin-top: -2350px;
+  }
+  .page-footer.tiga {
+    margin-top: -120px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .tambahan img {
+    top: -645px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .tambahan img {
+    top: -480px;
+  }
+  .process img {
+    width: 350px;
+    margin-left: 40px;
+  }
+  .process img.fib {
+    margin-top: 100px;
+  }
+  .process img.pet {
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 0px;
+  }
+  .process img.brik {
+    margin-top: 150px;
+  }
+  .page-footer.tiga {
+    margin-top: -80px;
+  }
+}
+
+@media (max-width: 991px) {
+  .tambahan img {
+    top: -445px;
+  }
+  .process img.fib {
+    margin-top: 80px;
+  }
+  .process img.brik {
+    margin-top: 110px;
+  }
+  .wavetiga.dua {
+    margin-top: 40px;
+  }
+  .filtertiga {
+    height: 1370px;
+  }
+}
+
+@media (max-width: 600px) {
+  .detail h1 {
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  .wavesembilan {
+    margin-top: 50px;
+  }
+  .tambahan img {
+    top: -630px;
+  }
+  .process h1 {
+    font-size: 25px;
+  }
+  .process h4 {
+    font-size: 16px;
+  }
+  .process img {
+    width: 300px;
+    height: 200px;
+    margin-left: 0px;
+  }
+  .process img.fib {
+    margin-top: 10px;
+  }
+  .process img.pet {
+    margin-top: 0px;
+  }
+  .process img.brik {
+    margin-top: 10px;
+  }
+  .process .row.peat {
+    margin-bottom: 30px;
+  }
+  .wavetiga.dua {
+    margin-top: -570px;
+  }
+  .page-footer.tiga {
+    margin-top: -40px;
+  }
+  .filtertiga {
+    height: 2000px;
+  }
+}

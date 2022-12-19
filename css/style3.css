@@ -1,0 +1,449 @@
+body {
+  background-color: rgb(241, 205, 159);
+}
+.jumbotrondua h1 {
+  color: white;
+  margin-top: 250px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+}
+.jumbotrondua img {
+  width: 100%;
+  filter: invert(6%);
+}
+
+.product {
+  background-color: rgb(241, 205, 159);
+  padding-top: 20px;
+}
+.product .container {
+  display: flex;
+}
+.product h1 {
+  margin-bottom: 50px;
+  font-weight: bolder;
+  font-family: "Jost", sans-serif;
+  font-size: 37px;
+}
+.bulat {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+.product img {
+  position: relative;
+  top: -170px;
+  width: 60%;
+  height: auto;
+}
+.product img:hover {
+  top: -180px;
+  width: 65%;
+  filter: drop-shadow(2px 2px 4px rgb(110, 53, 0));
+  margin-bottom: -10px;
+}
+.product h5 {
+  margin-top: -120px;
+  font-weight: bold;
+  color: rgb(167, 96, 29);
+  font-size: 30px;
+  font-family: "Lexend Deca", sans-serif;
+}
+.product h5:hover {
+  color: white;
+  text-shadow: 2px 2px 5px rgb(167, 96, 29);
+  margin-top: -122px;
+  margin-left: -5px;
+}
+.btn.catalogue {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-size: 13px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(110, 53, 0);
+}
+.btn.catalogue:hover {
+  color: white;
+  background-color: rgb(110, 53, 0);
+}
+.overlaytiga {
+  padding-top: 200px;
+  margin-top: -170px;
+}
+.overlaytiga h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-family: "Jost", sans-serif;
+}
+.overlaytiga h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  font-family: "Jost", sans-serif;
+}
+.overlaytiga h5 {
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(167, 96, 29);
+  font-family: "Jost", sans-serif;
+}
+.overlaytiga h6 {
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+}
+.overlaytiga .sizes {
+  line-height: 24px;
+}
+
+#bbq {
+  margin-top: -200px;
+}
+#hardwood {
+  margin-top: -200px;
+}
+.container.lgall {
+  width: 60%;
+  padding: 20px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.lgall img {
+  max-width: 100%;
+  max-height: 378px;
+}
+
+/* Process */
+.jumbotrondua.prcs h1 {
+  margin-top: 330px;
+}
+.process {
+  padding-top: 50px;
+  background-color: rgb(255, 255, 255);
+  font-family: "Jost", sans-serif;
+}
+.process .container {
+  border: 2px solid rgb(110, 53, 0);
+  border-radius: 20px;
+  padding-top: 20px;
+}
+.process h1 {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  padding-left: 40px;
+}
+.process h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.process h4 {
+  font-size: 16px;
+}
+.process img {
+  width: 90%;
+}
+
+/* Page-footer */
+.wavetiga {
+  background-color: rgb(255, 255, 255);
+  margin-top: -100px;
+}
+
+/* Media */
+/* 1280 */
+@media (max-width: 1280px) {
+  .product img {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: -5px;
+  }
+  .product img:hover {
+    width: 100%;
+    margin-bottom: -5px;
+  }
+  .overlaytiga h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .overlaytiga .container.spek {
+    width: 90%;
+  }
+  .overlaytiga h5 {
+    font-size: 19px;
+  }
+  .wood {
+    margin-top: -10px;
+  }
+  .process .container {
+    width: 85%;
+  }
+  .process .teks {
+    margin-top: -30px;
+  }
+}
+
+/* 1024 */
+@media (max-width: 1024px) {
+  .product img {
+    width: 100%;
+  }
+  .product img:hover {
+    width: 100%;
+    margin-bottom: -5px;
+  }
+  .overlaytiga .container.spek {
+    width: 95%;
+  }
+  .overlaytiga h5 {
+    font-size: 16px;
+  }
+  .container.lgall {
+    width: 100%;
+  }
+  .process .container {
+    width: 90%;
+  }
+  .process img {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
+
+/* 912 */
+@media (max-width: 912px) {
+  .overlaytiga .container.spek {
+    width: 85%;
+  }
+  .overlaytiga h5 {
+    font-size: 18px;
+  }
+}
+
+/* 820 */
+@media (max-width: 820px) {
+  .jumbotrondua h1 {
+    font-size: 50px;
+  }
+  .overlaytiga h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  .overlaytiga .container.spek {
+    width: 90%;
+  }
+  .overlaytiga h5 {
+    font-size: 17px;
+  }
+  .wood {
+    margin-top: -10px;
+  }
+  .process {
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+}
+
+/* 768 */
+@media (max-width: 768px) {
+  .overlaytiga .container.spek {
+    width: 90%;
+  }
+  .overlaytiga h5 {
+    font-size: 16px;
+  }
+}
+
+/* 540 */
+@media (max-width: 540px) {
+  .jumbotrondua .parallax-container {
+    height: 450px;
+  }
+  .jumbotrondua.prcs .parallax-container {
+    height: 350px;
+  }
+  .jumbotrondua h1 {
+    margin-top: 260px;
+  }
+  .product h1 {
+    margin-top: 20px;
+  }
+  .bulat {
+    width: 120px;
+    height: 120px;
+    margin-top: -20px;
+  }
+  .product img {
+    margin-top: 75px;
+    margin-bottom: -30px;
+  }
+  .product img:hover {
+    margin-bottom: -30px;
+  }
+  .product h5 {
+    font-size: 20px;
+    margin-bottom: -5px;
+  }
+  .overlaytiga h1 {
+    font-size: 35px;
+  }
+  .overlaytiga .container.spek {
+    width: 75%;
+  }
+  .overlaytiga h5 {
+    font-size: 20px;
+  }
+  .jumbotrondua.prcs h1 {
+    margin-top: 250px;
+  }
+}
+
+/* 414 */
+@media (max-width: 414px) {
+  .jumbotrondua .parallax-container {
+    height: 450px;
+  }
+  .jumbotrondua.prcs .parallax-container {
+    height: 350px;
+  }
+  .jumbotrondua h1 {
+    margin-top: 270px;
+  }
+  .product h1 {
+    font-size: 30px;
+  }
+  .bulat {
+    width: 100px;
+    height: 100px;
+  }
+  .product img {
+    margin-top: 90px;
+    margin-bottom: -25px;
+  }
+  .product img:hover {
+    margin-bottom: -25px;
+  }
+  .product h5 {
+    font-size: 18px;
+  }
+  .overlaytiga h1 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .overlaytiga .container.spek {
+    width: 85%;
+  }
+  .overlaytiga h5 {
+    font-size: 17px;
+  }
+  .wood {
+    margin-top: 20px;
+  }
+  .overlaytiga h2 {
+    font-size: 25px;
+  }
+  .overlaytiga img {
+    width: 100%;
+  }
+  .process {
+    margin-bottom: 100px;
+  }
+  .process .container {
+    width: 100%;
+    padding: 0px;
+  }
+}
+
+/* 393 */
+@media (max-width: 393px) {
+  .overlaytiga h1 {
+    font-size: 27px;
+  }
+  .overlaytiga h2 {
+    font-size: 22px;
+  }
+  .overlaytiga h5 {
+    font-size: 16px;
+  }
+  .process h2 {
+    font-size: 25px;
+  }
+}
+
+/* 375 */
+@media (max-width: 375px) {
+  .overlaytiga h5 {
+    font-size: 15px;
+  }
+}
+
+/* 360 */
+@media (max-width: 360px) {
+  .overlaytiga .container.spek {
+    width: 90%;
+  }
+}
+
+/* 280 */
+@media (max-width: 280px) {
+  .jumbotrondua .parallax-container {
+    height: 440px;
+  }
+  .jumbotrondua.prcs .parallax-container {
+    height: 300px;
+  }
+  .jumbotrondua h1 {
+    font-size: 35px;
+    margin-top: 270px;
+  }
+  .prcs h1 {
+    margin-top: 230px;
+  }
+  .product h1 {
+    font-size: 20px;
+  }
+  .bulat {
+    width: 70px;
+    height: 70px;
+  }
+  .product img {
+    margin-top: 115px;
+  }
+  .product h5 {
+    font-size: 12px;
+  }
+  .overlaytiga .container.spek {
+    width: 100%;
+  }
+  .overlaytiga h5 {
+    font-size: 13px;
+  }
+  .overlaytiga h1 {
+    font-size: 19px;
+  }
+  .overlaytiga h6 {
+    font-size: 14px;
+  }
+  .overlaytiga h2 {
+    font-size: 17px;
+  }
+  .btn.catalogue {
+    font-size: 10px;
+  }
+  .jumbotrondua.prcs h1 {
+    margin-top: 220px;
+  }
+  .process h2 {
+    font-size: 18px;
+  }
+  .process h4 {
+    font-size: 14px;
+  }
+}

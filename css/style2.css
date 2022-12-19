@@ -1,0 +1,515 @@
+.detailbout,
+.team,
+.gallery {
+  overflow: hidden;
+}
+
+/* Jumbotron */
+.jumbotrondua img {
+  width: 100%;
+  filter: invert(10%);
+}
+.jumbotrondua h1 {
+  margin-top: 300px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px black;
+}
+
+/* Detail */
+.detailbout img {
+  margin-top: 30px;
+  width: 90%;
+  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.753));
+}
+.detailbout h2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 60px;
+  font-family: "Lexend Deca", sans-serif;
+}
+.detailbout h5 {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: "Jost", sans-serif;
+}
+.detailbout .visi,
+.detailbout .misi {
+  border: 3px solid rgb(167, 96, 29);
+  border-radius: 30px;
+  width: 85%;
+  height: 190px;
+  padding: 10px;
+  margin-top: 20px;
+  font-family: "Jost", sans-serif;
+}
+.detailbout h3 {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.detailbout h6 {
+  font-size: 16px;
+  padding: 6px;
+}
+
+/* Wave Lima */
+.wavelima {
+  position: relative;
+  top: -20px;
+}
+/* Video */
+.video.dua {
+  background-color: rgb(241, 206, 159);
+  margin-top: -270px;
+}
+.video.dua .video-container {
+  margin-top: 20px;
+  margin-bottom: 78px;
+}
+
+/* Team */
+.fltr {
+  height: 500px;
+  position: relative;
+  background-color: rgba(167, 96, 29, 0.5);
+  margin-top: 0px;
+}
+.team {
+  color: white;
+  margin-top: -500px;
+  font-family: "Jost", sans-serif;
+}
+.team h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  position: relative;
+  font-family: "Lexend Deca", sans-serif;
+}
+.team img {
+  border-radius: 150px;
+  border: 4px solid rgb(167, 96, 29);
+  position: relative;
+}
+.team h2 {
+  font-size: 30px;
+  margin-top: 18px;
+  margin-bottom: -15px;
+  font-weight: 500;
+  position: relative;
+}
+.team h4 {
+  font-size: 19px;
+  position: relative;
+}
+
+/* Gallery */
+.gallery {
+  margin-top: 70px;
+}
+.gallery h1 {
+  position: relative;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 50px;
+  font-family: "Lexend Deca", sans-serif;
+}
+.gallery img {
+  width: 100%;
+  height: 200px;
+}
+
+/* Footer */
+.wavefoot img {
+  width: 100%;
+  margin-top: 80px;
+}
+.page-footer {
+  margin-top: -10px;
+}
+.page-footer img.logo,
+.page-footer h4,
+.page-footer i,
+.page-footer h5,
+.page-footer h6,
+.page-footer img.whats {
+  position: inherit;
+}
+
+/* Media */
+/* 1280 */
+@media (max-width: 1280px) {
+  .detailbout .container {
+    width: 80%;
+  }
+  .detailbout .misi,
+  .detailbout .visi {
+    height: 225px;
+  }
+  .detailbout img {
+    margin-top: 80px;
+    width: 100%;
+  }
+  .wavelima {
+    top: -40px;
+  }
+  .video.dua {
+    margin-top: -210px;
+  }
+  .video.dua .video-container {
+    margin-bottom: 40px;
+  }
+  .gallery .container {
+    width: 90%;
+  }
+}
+
+/* 1024 */
+@media (max-width: 1024px) {
+  .detailbout .container {
+    width: 90%;
+  }
+  .logo img {
+    width: 400px;
+    margin-top: 80px;
+  }
+  .detailbout h5 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .detailbout .visi,
+  .detailbout .misi {
+    height: 200px;
+  }
+  .detailbout h3 {
+    font-size: 25px;
+  }
+  .detailbout h6 {
+    font-size: 14px;
+    margin-top: -10px;
+  }
+  .wavelima {
+    margin-top: 60px;
+  }
+  .video.dua {
+    margin-top: -180px;
+  }
+  .fltr {
+    height: 450px;
+  }
+  .team {
+    margin-top: -500px;
+  }
+  .team h1 {
+    font-size: 35px;
+  }
+  .team h2 {
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: -20px;
+  }
+  .gallery .container {
+    width: 95%;
+  }
+  .gallery h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .gallery img {
+    height: 180px;
+  }
+}
+
+/* 990 */
+@media (max-width: 992px) {
+  .logo img {
+    margin-top: 80px;
+  }
+  .detailbout .visi,
+  .detailbout .misi {
+    height: 200px;
+  }
+  .wavelima {
+    margin-top: 30px;
+  }
+  .video.dua {
+    margin-top: -150px;
+  }
+  .gallery img {
+    margin-bottom: 20px;
+    height: 250px;
+  }
+  .detailbout,
+  .gallery {
+    overflow-x: hidden;
+  }
+  .wavefoot img {
+    margin-bottom: 135px;
+  }
+  .page-footer {
+    margin-top: -145px;
+  }
+}
+
+/* 820 */
+@media (max-width: 820px) {
+  .logo img {
+    margin-top: 100px;
+  }
+  .detailbout .container {
+    width: 100%;
+    margin-left: -40px;
+  }
+  .detailbout h2 {
+    font-size: 35px;
+  }
+  .gallery {
+    margin-top: 50px;
+  }
+}
+
+/* 768 */
+@media (max-width: 768px) {
+  .detailbout .visi,
+  .detailbout .misi {
+    height: 210px;
+  }
+  .detailbout .text {
+    padding-right: 0px;
+  }
+  .gallery {
+    margin-top: 10px;
+  }
+}
+
+/* 600 */
+@media (max-width: 600px) {
+  .jumbotrondua h1 {
+    margin-top: 330px;
+  }
+  .detailbout img {
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  .detailbout .logo {
+    margin-bottom: -50px;
+  }
+  .wavelima {
+    margin-top: 80px;
+  }
+  .video.dua {
+    margin-top: -130px;
+  }
+  .video.dua .video-container {
+    margin-bottom: 35px;
+  }
+  .parallax-container {
+    height: 450px;
+  }
+  .team h1 {
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+  }
+  .team .foto img {
+    width: 150px;
+  }
+  .team h2 {
+    font-size: 20px;
+  }
+  .team h4 {
+    font-size: 16px;
+  }
+  .gallery h1 {
+    font-size: 30px;
+  }
+  .gallery img {
+    height: 160px;
+  }
+}
+
+/* 540 */
+@media (max-width: 540px) {
+  .jumbotrondua h1 {
+    margin-top: 200px;
+  }
+  .detailbout .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+  }
+  .detailbout img {
+    width: 80%;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+  .detailbout h2 {
+    font-size: 31px;
+  }
+  .detailbout .misi,
+  .detailbout .visi {
+    height: 180px;
+  }
+  .wavelima {
+    top: -80px;
+  }
+  .video.dua {
+    margin-top: -150px;
+  }
+  .fltr {
+    height: 330px;
+  }
+  .team {
+    margin-top: -330px;
+  }
+  .team h1 {
+    margin-top: 90px;
+    margin-bottom: 40px;
+  }
+  .parallax-container {
+    height: 350px;
+  }
+  .team .container {
+    margin-top: -45px;
+  }
+  .gallery {
+    margin-top: 0px;
+  }
+  .gallery img {
+    width: 90%;
+    height: 160px;
+  }
+  .wavefoot img {
+    margin-top: 50px;
+    margin-bottom: 145px;
+  }
+  .page-footer {
+    margin-top: -150px;
+  }
+}
+
+/* 414 */
+@media (max-width: 414px) {
+  .detailbout .visi,
+  .detailbout .misi {
+    height: 260px;
+  }
+  .wavelima {
+    margin-top: 60px;
+  }
+  .video.dua {
+    margin-top: -140px;
+  }
+  .video.dua .video-container {
+    margin-bottom: 10px;
+  }
+  .team {
+    margin-top: -330px;
+  }
+  .team h1 {
+    margin-top: 115px;
+    margin-bottom: 40px;
+  }
+  .team .foto img {
+    width: 80%;
+  }
+  .gallery {
+    margin-top: -10px;
+  }
+  .gallery img {
+    width: 100%;
+    height: 130px;
+  }
+  .wavefoot img {
+    margin-top: 40px;
+    margin-bottom: 143px;
+  }
+}
+
+/* 412 */
+@media (max-width: 412px) {
+  .team {
+    margin-top: -332px;
+  }
+}
+
+/* 393 */
+@media (max-width: 393px) {
+  .detailbout .visi,
+  .detailbout .misi {
+    height: 285px;
+  }
+}
+
+/* 360 */
+@media (max-width: 360px) {
+  .detailbout .visi,
+  .detailbout .misi {
+    height: 295px;
+  }
+  .video.dua {
+    margin-top: -130px;
+  }
+}
+
+/* 280 */
+@media (max-width: 280px) {
+  .jumbotrondua h1 {
+    font-size: 40px;
+    margin-top: 220px;
+  }
+  .detailbout h2 {
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  .detailbout h5 {
+    font-size: 13px;
+  }
+  .detailbout h3 {
+    font-size: 14px;
+  }
+  .detailbout h6 {
+    font-size: 12px;
+  }
+  .detailbout .visi,
+  .detailbout .misi {
+    height: 240px;
+  }
+  .video.dua {
+    margin-top: -120px;
+  }
+  .team h1 {
+    font-size: 20px;
+  }
+  .team .foto img {
+    width: 100px;
+  }
+  .fltr {
+    height: 290px;
+  }
+  .team {
+    margin-top: -270px;
+  }
+  .team .parallax-container {
+    height: 290px;
+  }
+  .team h2 {
+    font-size: 16px;
+  }
+  .team h4 {
+    font-size: 14px;
+  }
+  .gallery {
+    margin-top: 0px;
+  }
+  .gallery h1 {
+    font-size: 20px;
+  }
+  .gallery img {
+    height: 100px;
+  }
+}
